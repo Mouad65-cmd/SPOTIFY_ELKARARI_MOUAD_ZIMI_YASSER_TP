@@ -1,0 +1,133 @@
+
+.LibaryArea{
+    width: 83.1vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.navBar{
+    position: absolute;
+    width: 30vw;
+    height: 10vh;
+    left: 10%;
+    top: 10px;
+}
+
+.navBar ul{
+    display: flex;
+    margin: 10px;
+    padding: auto;
+}
+
+.navBar ul li{
+    margin: 20px;
+    padding: auto;
+    position: relative;
+    top: -10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    width:10vw;
+    text-align: center;
+    color: white;
+    height: 5vh;
+}
+
+.navBar ul li:hover{
+  cursor: pointer;
+}
+.active{
+    background-color: rgb(78, 78, 78);
+}
+
+.navBar ul li span{
+    position: relative;
+    top: 7px;
+}
+
+
+/* ------------------------------------------------------------ */
+
+.Topic{
+    position: absolute;
+    top: 15%;
+    left: 4%;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.cards{
+    position: absolute;
+    top: 22%;
+    display: flex;
+    left: 35px;
+   
+    width: 60%;
+    height: 50%;
+}
+
+.cards div:nth-child(1){
+    background-image: linear-gradient(to right top, #501ef2, #5c3ff1, #6956ef, #776bec, #857ee7);
+    width: 53%;
+    margin: 10px;
+    height: 80%;
+    border-radius: 10px;
+}
+.cards div:nth-child(2){
+    width: 30%;
+    background-image: linear-gradient(to right top, #000000, #161616, #252425, #343335, #434346);
+    margin: 10px;
+    height: 80%;
+    border-radius: 10px;
+}
+
+.content{
+    position: absolute;
+    top: 55%;
+    left: 40px;
+}
+
+.content h1{
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+}
+
+.content h6{
+    font-size:16px;
+    font-weight: 100;
+    color: white;
+    position: relative;
+    top: 10px;
+}
+
+.rectangle{
+    width: 12vw;
+    height: 25vh;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(67, 67, 67);
+}
+
+.playlistContent{
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.playlistContent h1{
+    font-size: 17px;
+    color: white;
+}
+.playlistContent h6{
+    font-size: 13px;
+    position: relative;
+    top: 10px;
+    color: white;
+    font-weight: 100;
+}

@@ -1,0 +1,31 @@
+
+.SerachArea{
+    width: 83.1vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.SerachBar{
+    height: 9vh;
+    width: 30vw;
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+.icon{
+ position: relative;
+ left: 60px;
+ top:-2px;  
+}
+
+.serachBox{
+    width: 85%;
+    height:70%;
+    border-radius: 24px;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
